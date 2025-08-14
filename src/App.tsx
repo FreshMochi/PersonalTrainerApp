@@ -15,6 +15,10 @@ function App() {
     <View style={styles.container}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <NewAppScreen templateFileName="App.tsx" />
+      <View>
+      <Text>Hello World</Text>
+      </View>
+
     </View>
   );
 }
